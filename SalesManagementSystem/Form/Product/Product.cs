@@ -21,5 +21,38 @@ namespace SalesManagementSystem
         {
 
         }
+
+        private void panel24_Paint(object sender, PaintEventArgs e)
+        {
+                    }
+
+        private void panel51_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel27_Paint(object sender, PaintEventArgs e)
+        {
+                    }
+
+        private void panel59_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel12_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void tableLayoutPanel7_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel62_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

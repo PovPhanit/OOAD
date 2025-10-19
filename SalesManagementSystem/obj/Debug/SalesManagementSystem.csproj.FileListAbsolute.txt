@@ -10,3 +10,18 @@ C:\Phanit\2. C#\Eshop Microservice\SalesManagementSystem\SalesManagementSystem\o
 C:\Phanit\2. C#\Eshop Microservice\SalesManagementSystem\SalesManagementSystem\obj\Debug\SalesManagementSystem.pdb
 C:\Phanit\2. C#\Eshop Microservice\SalesManagementSystem\SalesManagementSystem\obj\Debug\SalesManagementSystem.exe.config
 C:\Phanit\2. C#\Eshop Microservice\SalesManagementSystem\SalesManagementSystem\obj\Debug\SalesManagementSystem.Sale.resources
+C:\Phanit\2. C#\SalesManagementSystem\SalesManagementSystem\bin\Debug\SalesManagementSystem.exe.config
+C:\Phanit\2. C#\SalesManagementSystem\SalesManagementSystem\bin\Debug\SalesManagementSystem.exe
+C:\Phanit\2. C#\SalesManagementSystem\SalesManagementSystem\bin\Debug\SalesManagementSystem.pdb
+C:\Phanit\2. C#\SalesManagementSystem\SalesManagementSystem\obj\Debug\SalesManagementSystem.csproj.AssemblyReference.cache
+C:\Phanit\2. C#\SalesManagementSystem\SalesManagementSystem\obj\Debug\SalesManagementSystem.exe.config
+C:\Phanit\2. C#\SalesManagementSystem\SalesManagementSystem\obj\Debug\SalesManagementSystem.Customer.resources
+C:\Phanit\2. C#\SalesManagementSystem\SalesManagementSystem\obj\Debug\SalesManagementSystem.Employee.resources
+C:\Phanit\2. C#\SalesManagementSystem\SalesManagementSystem\obj\Debug\SalesManagementSystem.Main.resources
+C:\Phanit\2. C#\SalesManagementSystem\SalesManagementSystem\obj\Debug\SalesManagementSystem.Product.resources
+C:\Phanit\2. C#\SalesManagementSystem\SalesManagementSystem\obj\Debug\SalesManagementSystem.Sale.resources
+C:\Phanit\2. C#\SalesManagementSystem\SalesManagementSystem\obj\Debug\SalesManagementSystem.Properties.Resources.resources
+C:\Phanit\2. C#\SalesManagementSystem\SalesManagementSystem\obj\Debug\SalesManagementSystem.csproj.GenerateResource.cache
+C:\Phanit\2. C#\SalesManagementSystem\SalesManagementSystem\obj\Debug\SalesManagementSystem.csproj.CoreCompileInputs.cache
+C:\Phanit\2. C#\SalesManagementSystem\SalesManagementSystem\obj\Debug\SalesManagementSystem.exe
+C:\Phanit\2. C#\SalesManagementSystem\SalesManagementSystem\obj\Debug\SalesManagementSystem.pdb
