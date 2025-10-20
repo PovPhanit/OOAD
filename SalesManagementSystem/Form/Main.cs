@@ -17,10 +17,6 @@ namespace SalesManagementSystem
             InitializeComponent();
         }
 
-        private void Main_Load(object sender, EventArgs e)
-        {
-
-        }
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
@@ -33,22 +29,8 @@ namespace SalesManagementSystem
                 storeAuthorization.name = staffname;
                 storeAuthorization.role = role;
                 storeAuthorization.id = id;
-                if (storeAuthorization.role.ToLower() == "product")
-                {
-                    new Product().Show();
-                }
-                else if (storeAuthorization.role.ToLower() == "customer")
-                {
-                    new Customer().Show();
-                }
-                else if (storeAuthorization.role.ToLower() == "employee")
-                {
-                    new Employee().Show();
-                }
-                else if (storeAuthorization.role.ToLower() == "sale")
-                {
-                    new Sale().Show();
-                }
+                Dashboard dashboard = new Dashboard();
+                dashboard.Show();
             }
             else
             {

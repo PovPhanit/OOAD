@@ -25,3 +25,4 @@ C:\Phanit\2. C#\SalesManagementSystem\SalesManagementSystem\obj\Debug\SalesManag
 C:\Phanit\2. C#\SalesManagementSystem\SalesManagementSystem\obj\Debug\SalesManagementSystem.csproj.CoreCompileInputs.cache
 C:\Phanit\2. C#\SalesManagementSystem\SalesManagementSystem\obj\Debug\SalesManagementSystem.exe
 C:\Phanit\2. C#\SalesManagementSystem\SalesManagementSystem\obj\Debug\SalesManagementSystem.pdb
+C:\Phanit\2. C#\SalesManagementSystem\SalesManagementSystem\obj\Debug\SalesManagementSystem.Dashboard.resources
