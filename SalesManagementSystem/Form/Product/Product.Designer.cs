@@ -261,6 +261,7 @@
             this.btnNew.TabIndex = 15;
             this.btnNew.Text = "បង្កើតថ្មី";
             this.btnNew.UseVisualStyleBackColor = false;
+            this.btnNew.Click += new System.EventHandler(this.btnNew_Click);
             // 
             // label11
             // 

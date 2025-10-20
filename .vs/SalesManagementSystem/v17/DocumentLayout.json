@@ -7,31 +7,31 @@
       "RelativeMoniker": "D:0:0:{43DC7DF2-5356-40EB-AEAF-AF4589904885}|SalesManagementSystem\\SalesManagementSystem.csproj|solutionrelative:salesmanagementsystem\\form\\product\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{43DC7DF2-5356-40EB-AEAF-AF4589904885}|SalesManagementSystem\\SalesManagementSystem.csproj|c:\\phanit\\2. c#\\salesmanagementsystem\\salesmanagementsystem\\form\\product\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{43DC7DF2-5356-40EB-AEAF-AF4589904885}|SalesManagementSystem\\SalesManagementSystem.csproj|C:\\Phanit\\2. C#\\SalesManagementSystem\\salesmanagementsystem\\form\\product\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{43DC7DF2-5356-40EB-AEAF-AF4589904885}|SalesManagementSystem\\SalesManagementSystem.csproj|solutionrelative:salesmanagementsystem\\form\\product\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{43DC7DF2-5356-40EB-AEAF-AF4589904885}|SalesManagementSystem\\SalesManagementSystem.csproj|c:\\phanit\\2. c#\\salesmanagementsystem\\salesmanagementsystem\\form\\employee\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{43DC7DF2-5356-40EB-AEAF-AF4589904885}|SalesManagementSystem\\SalesManagementSystem.csproj|solutionrelative:salesmanagementsystem\\form\\employee\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43DC7DF2-5356-40EB-AEAF-AF4589904885}|SalesManagementSystem\\SalesManagementSystem.csproj|c:\\phanit\\2. c#\\salesmanagementsystem\\salesmanagementsystem\\form\\employee\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{43DC7DF2-5356-40EB-AEAF-AF4589904885}|SalesManagementSystem\\SalesManagementSystem.csproj|solutionrelative:salesmanagementsystem\\form\\employee\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43DC7DF2-5356-40EB-AEAF-AF4589904885}|SalesManagementSystem\\SalesManagementSystem.csproj|c:\\phanit\\2. c#\\salesmanagementsystem\\salesmanagementsystem\\form\\customer\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{43DC7DF2-5356-40EB-AEAF-AF4589904885}|SalesManagementSystem\\SalesManagementSystem.csproj|solutionrelative:salesmanagementsystem\\form\\customer\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43DC7DF2-5356-40EB-AEAF-AF4589904885}|SalesManagementSystem\\SalesManagementSystem.csproj|c:\\phanit\\2. c#\\salesmanagementsystem\\salesmanagementsystem\\form\\product\\product.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{43DC7DF2-5356-40EB-AEAF-AF4589904885}|SalesManagementSystem\\SalesManagementSystem.csproj|solutionrelative:salesmanagementsystem\\form\\product\\product.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43DC7DF2-5356-40EB-AEAF-AF4589904885}|SalesManagementSystem\\SalesManagementSystem.csproj|c:\\phanit\\2. c#\\salesmanagementsystem\\salesmanagementsystem\\form\\customer\\customer.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{43DC7DF2-5356-40EB-AEAF-AF4589904885}|SalesManagementSystem\\SalesManagementSystem.csproj|C:\\Phanit\\2. C#\\SalesManagementSystem\\salesmanagementsystem\\form\\customer\\customer.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{43DC7DF2-5356-40EB-AEAF-AF4589904885}|SalesManagementSystem\\SalesManagementSystem.csproj|solutionrelative:salesmanagementsystem\\form\\customer\\customer.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{43DC7DF2-5356-40EB-AEAF-AF4589904885}|SalesManagementSystem\\SalesManagementSystem.csproj|c:\\phanit\\2. c#\\salesmanagementsystem\\salesmanagementsystem\\form\\customer\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{43DC7DF2-5356-40EB-AEAF-AF4589904885}|SalesManagementSystem\\SalesManagementSystem.csproj|C:\\Phanit\\2. C#\\SalesManagementSystem\\salesmanagementsystem\\form\\employee\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43DC7DF2-5356-40EB-AEAF-AF4589904885}|SalesManagementSystem\\SalesManagementSystem.csproj|solutionrelative:salesmanagementsystem\\form\\employee\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43DC7DF2-5356-40EB-AEAF-AF4589904885}|SalesManagementSystem\\SalesManagementSystem.csproj|C:\\Phanit\\2. C#\\SalesManagementSystem\\salesmanagementsystem\\form\\employee\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{43DC7DF2-5356-40EB-AEAF-AF4589904885}|SalesManagementSystem\\SalesManagementSystem.csproj|solutionrelative:salesmanagementsystem\\form\\employee\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43DC7DF2-5356-40EB-AEAF-AF4589904885}|SalesManagementSystem\\SalesManagementSystem.csproj|C:\\Phanit\\2. C#\\SalesManagementSystem\\salesmanagementsystem\\form\\customer\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{43DC7DF2-5356-40EB-AEAF-AF4589904885}|SalesManagementSystem\\SalesManagementSystem.csproj|solutionrelative:salesmanagementsystem\\form\\customer\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43DC7DF2-5356-40EB-AEAF-AF4589904885}|SalesManagementSystem\\SalesManagementSystem.csproj|C:\\Phanit\\2. C#\\SalesManagementSystem\\salesmanagementsystem\\form\\product\\product.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43DC7DF2-5356-40EB-AEAF-AF4589904885}|SalesManagementSystem\\SalesManagementSystem.csproj|solutionrelative:salesmanagementsystem\\form\\product\\product.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43DC7DF2-5356-40EB-AEAF-AF4589904885}|SalesManagementSystem\\SalesManagementSystem.csproj|C:\\Phanit\\2. C#\\SalesManagementSystem\\salesmanagementsystem\\form\\customer\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{43DC7DF2-5356-40EB-AEAF-AF4589904885}|SalesManagementSystem\\SalesManagementSystem.csproj|solutionrelative:salesmanagementsystem\\form\\customer\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -46,7 +46,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Product.Designer.cs",
               "DocumentMoniker": "C:\\Phanit\\2. C#\\SalesManagementSystem\\SalesManagementSystem\\Form\\Product\\Product.Designer.cs",
               "RelativeDocumentMoniker": "SalesManagementSystem\\Form\\Product\\Product.Designer.cs",
@@ -65,7 +65,7 @@
               "RelativeDocumentMoniker": "SalesManagementSystem\\Form\\Product\\Product.cs",
               "ToolTip": "C:\\Phanit\\2. C#\\SalesManagementSystem\\SalesManagementSystem\\Form\\Product\\Product.cs",
               "RelativeToolTip": "SalesManagementSystem\\Form\\Product\\Product.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAADwv3oAAABLAAAAAAAAAA==",
+              "ViewState": "AgIAAIcAAAAAAAAAAAD4v3YAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-19T18:38:00.254Z",
               "EditorCaption": ""
@@ -84,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "Customer.Designer.cs",
               "DocumentMoniker": "C:\\Phanit\\2. C#\\SalesManagementSystem\\SalesManagementSystem\\Form\\Customer\\Customer.Designer.cs",
               "RelativeDocumentMoniker": "SalesManagementSystem\\Form\\Customer\\Customer.Designer.cs",
@@ -105,24 +105,22 @@
               "RelativeToolTip": "SalesManagementSystem\\Form\\Customer\\Customer.cs",
               "ViewState": "AgIAAK8AAAAAAAAAAAAowM8AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T17:38:52.885Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-19T17:38:52.885Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Customer.cs [Design]",
               "DocumentMoniker": "C:\\Phanit\\2. C#\\SalesManagementSystem\\SalesManagementSystem\\Form\\Customer\\Customer.cs",
               "RelativeDocumentMoniker": "SalesManagementSystem\\Form\\Customer\\Customer.cs",
               "ToolTip": "C:\\Phanit\\2. C#\\SalesManagementSystem\\SalesManagementSystem\\Form\\Customer\\Customer.cs [Design]",
               "RelativeToolTip": "SalesManagementSystem\\Form\\Customer\\Customer.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T17:38:47.678Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-10-19T17:38:47.678Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Employee.cs",
               "DocumentMoniker": "C:\\Phanit\\2. C#\\SalesManagementSystem\\SalesManagementSystem\\Form\\Employee\\Employee.cs",
               "RelativeDocumentMoniker": "SalesManagementSystem\\Form\\Employee\\Employee.cs",
@@ -130,20 +128,18 @@
               "RelativeToolTip": "SalesManagementSystem\\Form\\Employee\\Employee.cs",
               "ViewState": "AgIAAJIAAAAAAAAAAADwv6UAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T17:27:01.829Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-19T17:27:01.829Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Employee.cs [Design]",
               "DocumentMoniker": "C:\\Phanit\\2. C#\\SalesManagementSystem\\SalesManagementSystem\\Form\\Employee\\Employee.cs",
               "RelativeDocumentMoniker": "SalesManagementSystem\\Form\\Employee\\Employee.cs",
               "ToolTip": "C:\\Phanit\\2. C#\\SalesManagementSystem\\SalesManagementSystem\\Form\\Employee\\Employee.cs [Design]",
               "RelativeToolTip": "SalesManagementSystem\\Form\\Employee\\Employee.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T17:26:42.718Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-10-19T17:26:42.718Z"
             }
           ]
         }

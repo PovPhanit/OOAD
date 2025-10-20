@@ -112,40 +112,45 @@ namespace SalesManagementSystem
 
         private void dgvProduct_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (!isCreateUPdate)
-            {
-                if (e.RowIndex >= 0) // Make sure it's not a header
-                {
-                    DataGridViewRow row = dgvStaff.Rows[e.RowIndex];
-                    var salary = decimal.Parse(row.Cells["Salary"].Value.ToString(), NumberStyles.Currency);
-                    txtNameKH.Tag = row.Cells["StaffID"].Value.ToString();
-                    txtNameKH.Text = row.Cells["Name KH"].Value.ToString();
-                    txtNameEN.Text = row.Cells["Name EN"].Value.ToString();
-                    if (row.Cells["Gender"].Value.ToString().Trim() == "Male")
-                    {
-                        cbxGender.SelectedIndex = 0;
-                    }
-                    else
-                    {
-                        cbxGender.SelectedIndex = 1;
-                    }
-                    txtPhnoe.Text = row.Cells["Phone"].Value.ToString();
-                    dpDOB.Text = row.Cells["DOB"].Value.ToString();
-                    txtVillage.Text = row.Cells["Village"].Value.ToString();
-                    txtSongkat.Text = row.Cells["Sangkat_Khum"].Value.ToString();
-                    txtKhan.Text = row.Cells["Khan_Srok"].Value.ToString();
-                    txtCity.Text = row.Cells["Province_City"].Value.ToString();
-                    txtEmail.Text = row.Cells["Email"].Value.ToString();
-                    txtPassword.Text = row.Cells["Password"].Value.ToString();
-                    cbxRole.SelectedValue = int.Parse(row.Cells["RoleID"].Value.ToString());
+            //if (!isCreateUPdate)
+            //{
+            //    if (e.RowIndex >= 0) // Make sure it's not a header
+            //    {
+            //        DataGridViewRow row = dgvStaff.Rows[e.RowIndex];
+            //        var salary = decimal.Parse(row.Cells["Salary"].Value.ToString(), NumberStyles.Currency);
+            //        txtNameKH.Tag = row.Cells["StaffID"].Value.ToString();
+            //        txtNameKH.Text = row.Cells["Name KH"].Value.ToString();
+            //        txtNameEN.Text = row.Cells["Name EN"].Value.ToString();
+            //        if (row.Cells["Gender"].Value.ToString().Trim() == "Male")
+            //        {
+            //            cbxGender.SelectedIndex = 0;
+            //        }
+            //        else
+            //        {
+            //            cbxGender.SelectedIndex = 1;
+            //        }
+            //        txtPhnoe.Text = row.Cells["Phone"].Value.ToString();
+            //        dpDOB.Text = row.Cells["DOB"].Value.ToString();
+            //        txtVillage.Text = row.Cells["Village"].Value.ToString();
+            //        txtSongkat.Text = row.Cells["Sangkat_Khum"].Value.ToString();
+            //        txtKhan.Text = row.Cells["Khan_Srok"].Value.ToString();
+            //        txtCity.Text = row.Cells["Province_City"].Value.ToString();
+            //        txtEmail.Text = row.Cells["Email"].Value.ToString();
+            //        txtPassword.Text = row.Cells["Password"].Value.ToString();
+            //        cbxRole.SelectedValue = int.Parse(row.Cells["RoleID"].Value.ToString());
 
-                    txtSalary.Text = salary.ToString("N2");
-                    Photo = (byte[])row.Cells["Image"].Value;
-                    MemoryStream ms = new MemoryStream(Photo);
-                    imageStaff.Image = Image.FromStream(ms);
+            //        txtSalary.Text = salary.ToString("N2");
+            //        Photo = (byte[])row.Cells["Image"].Value;
+            //        MemoryStream ms = new MemoryStream(Photo);
+            //        imageStaff.Image = Image.FromStream(ms);
 
-                }
-            }
+            //    }
+            //}
+        }
+
+        private void btnNew_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("hello");
         }
     }
 }
