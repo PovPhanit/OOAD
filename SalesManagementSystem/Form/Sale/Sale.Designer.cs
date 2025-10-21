@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel63 = new System.Windows.Forms.Panel();
             this.button6 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -57,6 +57,22 @@
             this.panel13 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel12 = new System.Windows.Forms.Panel();
+            this.panel17 = new System.Windows.Forms.Panel();
+            this.tableLayoutPanel12 = new System.Windows.Forms.TableLayoutPanel();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.label8 = new System.Windows.Forms.Label();
+            this.panel19 = new System.Windows.Forms.Panel();
+            this.label7 = new System.Windows.Forms.Label();
+            this.tableLayoutPanel10 = new System.Windows.Forms.TableLayoutPanel();
+            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
+            this.label9 = new System.Windows.Forms.Label();
+            this.panel18 = new System.Windows.Forms.Panel();
+            this.label6 = new System.Windows.Forms.Label();
+            this.tableLayoutPanel9 = new System.Windows.Forms.TableLayoutPanel();
+            this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
+            this.label10 = new System.Windows.Forms.Label();
+            this.panel20 = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
             this.panel34 = new System.Windows.Forms.Panel();
             this.panel62 = new System.Windows.Forms.Panel();
             this.btnSave = new System.Windows.Forms.Button();
@@ -72,6 +88,17 @@
             this.dgvEnroll = new System.Windows.Forms.DataGridView();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel44 = new System.Windows.Forms.Panel();
+            this.panel41 = new System.Windows.Forms.Panel();
+            this.panel43 = new System.Windows.Forms.Panel();
+            this.tableLayoutPanel8 = new System.Windows.Forms.TableLayoutPanel();
+            this.panel15 = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.panel14 = new System.Windows.Forms.Panel();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.panel16 = new System.Windows.Forms.Panel();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.panel42 = new System.Windows.Forms.Panel();
+            this.label11 = new System.Windows.Forms.Label();
             this.panel36 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -80,33 +107,6 @@
             this.panel71 = new System.Windows.Forms.Panel();
             this.panel72 = new System.Windows.Forms.Panel();
             this.label19 = new System.Windows.Forms.Label();
-            this.panel42 = new System.Windows.Forms.Panel();
-            this.label11 = new System.Windows.Forms.Label();
-            this.panel41 = new System.Windows.Forms.Panel();
-            this.tableLayoutPanel8 = new System.Windows.Forms.TableLayoutPanel();
-            this.panel43 = new System.Windows.Forms.Panel();
-            this.panel14 = new System.Windows.Forms.Panel();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.panel15 = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
-            this.panel16 = new System.Windows.Forms.Panel();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.panel17 = new System.Windows.Forms.Panel();
-            this.tableLayoutPanel12 = new System.Windows.Forms.TableLayoutPanel();
-            this.panel19 = new System.Windows.Forms.Panel();
-            this.label7 = new System.Windows.Forms.Label();
-            this.tableLayoutPanel10 = new System.Windows.Forms.TableLayoutPanel();
-            this.panel18 = new System.Windows.Forms.Panel();
-            this.label6 = new System.Windows.Forms.Label();
-            this.tableLayoutPanel9 = new System.Windows.Forms.TableLayoutPanel();
-            this.panel20 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
             this.panel63.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -125,6 +125,16 @@
             this.panel13.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel12.SuspendLayout();
+            this.panel17.SuspendLayout();
+            this.tableLayoutPanel12.SuspendLayout();
+            this.flowLayoutPanel1.SuspendLayout();
+            this.panel19.SuspendLayout();
+            this.tableLayoutPanel10.SuspendLayout();
+            this.flowLayoutPanel2.SuspendLayout();
+            this.panel18.SuspendLayout();
+            this.tableLayoutPanel9.SuspendLayout();
+            this.flowLayoutPanel3.SuspendLayout();
+            this.panel20.SuspendLayout();
             this.panel34.SuspendLayout();
             this.panel62.SuspendLayout();
             this.panel39.SuspendLayout();
@@ -136,6 +146,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvEnroll)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel44.SuspendLayout();
+            this.panel41.SuspendLayout();
+            this.panel43.SuspendLayout();
+            this.tableLayoutPanel8.SuspendLayout();
+            this.panel15.SuspendLayout();
+            this.panel14.SuspendLayout();
+            this.panel16.SuspendLayout();
+            this.panel42.SuspendLayout();
             this.panel36.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -143,23 +160,6 @@
             this.panel70.SuspendLayout();
             this.panel71.SuspendLayout();
             this.panel72.SuspendLayout();
-            this.panel42.SuspendLayout();
-            this.panel41.SuspendLayout();
-            this.tableLayoutPanel8.SuspendLayout();
-            this.panel43.SuspendLayout();
-            this.panel14.SuspendLayout();
-            this.panel15.SuspendLayout();
-            this.panel16.SuspendLayout();
-            this.panel17.SuspendLayout();
-            this.tableLayoutPanel12.SuspendLayout();
-            this.panel19.SuspendLayout();
-            this.tableLayoutPanel10.SuspendLayout();
-            this.panel18.SuspendLayout();
-            this.tableLayoutPanel9.SuspendLayout();
-            this.panel20.SuspendLayout();
-            this.flowLayoutPanel1.SuspendLayout();
-            this.flowLayoutPanel2.SuspendLayout();
-            this.flowLayoutPanel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel63
@@ -460,6 +460,199 @@
             this.panel12.Size = new System.Drawing.Size(288, 179);
             this.panel12.TabIndex = 2;
             // 
+            // panel17
+            // 
+            this.panel17.BackColor = System.Drawing.Color.White;
+            this.panel17.Controls.Add(this.tableLayoutPanel12);
+            this.panel17.Controls.Add(this.tableLayoutPanel10);
+            this.panel17.Controls.Add(this.tableLayoutPanel9);
+            this.panel17.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel17.Location = new System.Drawing.Point(30, 10);
+            this.panel17.Name = "panel17";
+            this.panel17.Size = new System.Drawing.Size(258, 159);
+            this.panel17.TabIndex = 0;
+            // 
+            // tableLayoutPanel12
+            // 
+            this.tableLayoutPanel12.ColumnCount = 2;
+            this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30F));
+            this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 70F));
+            this.tableLayoutPanel12.Controls.Add(this.flowLayoutPanel1, 1, 0);
+            this.tableLayoutPanel12.Controls.Add(this.panel19, 0, 0);
+            this.tableLayoutPanel12.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.tableLayoutPanel12.Location = new System.Drawing.Point(0, 27);
+            this.tableLayoutPanel12.Name = "tableLayoutPanel12";
+            this.tableLayoutPanel12.RowCount = 1;
+            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel12.Size = new System.Drawing.Size(258, 44);
+            this.tableLayoutPanel12.TabIndex = 8;
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.Controls.Add(this.label8);
+            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(80, 3);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(175, 38);
+            this.flowLayoutPanel1.TabIndex = 1;
+            // 
+            // label8
+            // 
+            this.label8.AllowDrop = true;
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.Transparent;
+            this.label8.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label8.Font = new System.Drawing.Font("Khmer Busra", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.Brown;
+            this.label8.Location = new System.Drawing.Point(3, 0);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(90, 39);
+            this.label8.TabIndex = 16;
+            this.label8.Text = ": 5.45$";
+            // 
+            // panel19
+            // 
+            this.panel19.Controls.Add(this.label7);
+            this.panel19.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel19.Location = new System.Drawing.Point(3, 3);
+            this.panel19.Name = "panel19";
+            this.panel19.Size = new System.Drawing.Size(71, 38);
+            this.panel19.TabIndex = 0;
+            // 
+            // label7
+            // 
+            this.label7.AllowDrop = true;
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.Transparent;
+            this.label7.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label7.Font = new System.Drawing.Font("Khmer Busra", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.label7.Location = new System.Drawing.Point(0, 0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(70, 39);
+            this.label7.TabIndex = 15;
+            this.label7.Text = "តម្លៃ ";
+            // 
+            // tableLayoutPanel10
+            // 
+            this.tableLayoutPanel10.ColumnCount = 2;
+            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30F));
+            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 70F));
+            this.tableLayoutPanel10.Controls.Add(this.flowLayoutPanel2, 1, 0);
+            this.tableLayoutPanel10.Controls.Add(this.panel18, 0, 0);
+            this.tableLayoutPanel10.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.tableLayoutPanel10.Location = new System.Drawing.Point(0, 71);
+            this.tableLayoutPanel10.Name = "tableLayoutPanel10";
+            this.tableLayoutPanel10.RowCount = 1;
+            this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel10.Size = new System.Drawing.Size(258, 44);
+            this.tableLayoutPanel10.TabIndex = 7;
+            // 
+            // flowLayoutPanel2
+            // 
+            this.flowLayoutPanel2.Controls.Add(this.label9);
+            this.flowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(80, 3);
+            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(175, 38);
+            this.flowLayoutPanel2.TabIndex = 2;
+            // 
+            // label9
+            // 
+            this.label9.AllowDrop = true;
+            this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.Transparent;
+            this.label9.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label9.Font = new System.Drawing.Font("Khmer Busra", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.Brown;
+            this.label9.Location = new System.Drawing.Point(3, 0);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(53, 39);
+            this.label9.TabIndex = 17;
+            this.label9.Text = ": 2";
+            // 
+            // panel18
+            // 
+            this.panel18.Controls.Add(this.label6);
+            this.panel18.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel18.Location = new System.Drawing.Point(3, 3);
+            this.panel18.Name = "panel18";
+            this.panel18.Size = new System.Drawing.Size(71, 38);
+            this.panel18.TabIndex = 0;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label6.Font = new System.Drawing.Font("Khmer Busra", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.label6.Location = new System.Drawing.Point(0, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(77, 39);
+            this.label6.TabIndex = 15;
+            this.label6.Text = "ចំនួន ";
+            // 
+            // tableLayoutPanel9
+            // 
+            this.tableLayoutPanel9.ColumnCount = 2;
+            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30F));
+            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 70F));
+            this.tableLayoutPanel9.Controls.Add(this.flowLayoutPanel3, 1, 0);
+            this.tableLayoutPanel9.Controls.Add(this.panel20, 0, 0);
+            this.tableLayoutPanel9.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.tableLayoutPanel9.Location = new System.Drawing.Point(0, 115);
+            this.tableLayoutPanel9.Name = "tableLayoutPanel9";
+            this.tableLayoutPanel9.RowCount = 1;
+            this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel9.Size = new System.Drawing.Size(258, 44);
+            this.tableLayoutPanel9.TabIndex = 6;
+            // 
+            // flowLayoutPanel3
+            // 
+            this.flowLayoutPanel3.Controls.Add(this.label10);
+            this.flowLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flowLayoutPanel3.Location = new System.Drawing.Point(80, 3);
+            this.flowLayoutPanel3.Name = "flowLayoutPanel3";
+            this.flowLayoutPanel3.Size = new System.Drawing.Size(175, 38);
+            this.flowLayoutPanel3.TabIndex = 2;
+            // 
+            // label10
+            // 
+            this.label10.AllowDrop = true;
+            this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.Transparent;
+            this.label10.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label10.Font = new System.Drawing.Font("Khmer Busra", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.Brown;
+            this.label10.Location = new System.Drawing.Point(3, 0);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(104, 39);
+            this.label10.TabIndex = 17;
+            this.label10.Text = ": 10.90$";
+            // 
+            // panel20
+            // 
+            this.panel20.Controls.Add(this.label5);
+            this.panel20.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel20.Location = new System.Drawing.Point(3, 3);
+            this.panel20.Name = "panel20";
+            this.panel20.Size = new System.Drawing.Size(71, 38);
+            this.panel20.TabIndex = 0;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label5.Font = new System.Drawing.Font("Khmer Busra", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.label5.Location = new System.Drawing.Point(0, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(60, 39);
+            this.label5.TabIndex = 15;
+            this.label5.Text = "សរុប";
+            // 
             // panel34
             // 
             this.panel34.Controls.Add(this.panel62);
@@ -614,6 +807,7 @@
             this.btnNew.TabIndex = 15;
             this.btnNew.Text = "បង្កើតថ្មី";
             this.btnNew.UseVisualStyleBackColor = false;
+            this.btnNew.Click += new System.EventHandler(this.btnNew_Click);
             // 
             // panel21
             // 
@@ -628,37 +822,37 @@
             // 
             this.dgvEnroll.AllowUserToAddRows = false;
             this.dgvEnroll.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.MidnightBlue;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.MidnightBlue;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvEnroll.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.MidnightBlue;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.MidnightBlue;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvEnroll.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvEnroll.ColumnHeadersHeight = 30;
             this.dgvEnroll.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.MidnightBlue;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvEnroll.DefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.MidnightBlue;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvEnroll.DefaultCellStyle = dataGridViewCellStyle2;
             this.dgvEnroll.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvEnroll.EnableHeadersVisualStyles = false;
             this.dgvEnroll.Location = new System.Drawing.Point(30, 10);
             this.dgvEnroll.Name = "dgvEnroll";
             this.dgvEnroll.ReadOnly = true;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.MidnightBlue;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvEnroll.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.MidnightBlue;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvEnroll.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.dgvEnroll.RowHeadersVisible = false;
             this.dgvEnroll.RowHeadersWidth = 51;
             this.dgvEnroll.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
@@ -686,6 +880,126 @@
             this.panel44.Padding = new System.Windows.Forms.Padding(30, 10, 20, 10);
             this.panel44.Size = new System.Drawing.Size(1256, 289);
             this.panel44.TabIndex = 4;
+            // 
+            // panel41
+            // 
+            this.panel41.Controls.Add(this.panel43);
+            this.panel41.Controls.Add(this.panel42);
+            this.panel41.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel41.Location = new System.Drawing.Point(0, 529);
+            this.panel41.Name = "panel41";
+            this.panel41.Size = new System.Drawing.Size(1256, 46);
+            this.panel41.TabIndex = 2;
+            // 
+            // panel43
+            // 
+            this.panel43.Controls.Add(this.tableLayoutPanel8);
+            this.panel43.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel43.Location = new System.Drawing.Point(181, 0);
+            this.panel43.Name = "panel43";
+            this.panel43.Padding = new System.Windows.Forms.Padding(20, 0, 20, 0);
+            this.panel43.Size = new System.Drawing.Size(1075, 46);
+            this.panel43.TabIndex = 1;
+            // 
+            // tableLayoutPanel8
+            // 
+            this.tableLayoutPanel8.ColumnCount = 3;
+            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 65F));
+            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 15F));
+            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel8.Controls.Add(this.panel15, 1, 0);
+            this.tableLayoutPanel8.Controls.Add(this.panel14, 0, 0);
+            this.tableLayoutPanel8.Controls.Add(this.panel16, 2, 0);
+            this.tableLayoutPanel8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel8.Location = new System.Drawing.Point(20, 0);
+            this.tableLayoutPanel8.Name = "tableLayoutPanel8";
+            this.tableLayoutPanel8.RowCount = 1;
+            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel8.Size = new System.Drawing.Size(1035, 46);
+            this.tableLayoutPanel8.TabIndex = 6;
+            // 
+            // panel15
+            // 
+            this.panel15.Controls.Add(this.label4);
+            this.panel15.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel15.Location = new System.Drawing.Point(675, 3);
+            this.panel15.Name = "panel15";
+            this.panel15.Padding = new System.Windows.Forms.Padding(0, 0, 30, 0);
+            this.panel15.Size = new System.Drawing.Size(149, 40);
+            this.panel15.TabIndex = 1;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Dock = System.Windows.Forms.DockStyle.Right;
+            this.label4.Font = new System.Drawing.Font("Khmer Busra", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(22, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(97, 39);
+            this.label4.TabIndex = 16;
+            this.label4.Text = "សរុប​ : ";
+            // 
+            // panel14
+            // 
+            this.panel14.Controls.Add(this.textBox4);
+            this.panel14.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel14.Location = new System.Drawing.Point(3, 3);
+            this.panel14.Name = "panel14";
+            this.panel14.Padding = new System.Windows.Forms.Padding(0, 0, 30, 0);
+            this.panel14.Size = new System.Drawing.Size(666, 40);
+            this.panel14.TabIndex = 0;
+            // 
+            // textBox4
+            // 
+            this.textBox4.BackColor = System.Drawing.Color.White;
+            this.textBox4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBox4.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox4.Location = new System.Drawing.Point(0, 0);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(636, 41);
+            this.textBox4.TabIndex = 12;
+            // 
+            // panel16
+            // 
+            this.panel16.Controls.Add(this.textBox5);
+            this.panel16.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel16.Location = new System.Drawing.Point(830, 3);
+            this.panel16.Name = "panel16";
+            this.panel16.Size = new System.Drawing.Size(202, 40);
+            this.panel16.TabIndex = 2;
+            // 
+            // textBox5
+            // 
+            this.textBox5.BackColor = System.Drawing.Color.White;
+            this.textBox5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBox5.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox5.Location = new System.Drawing.Point(0, 0);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(202, 41);
+            this.textBox5.TabIndex = 13;
+            // 
+            // panel42
+            // 
+            this.panel42.Controls.Add(this.label11);
+            this.panel42.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel42.Location = new System.Drawing.Point(0, 0);
+            this.panel42.Name = "panel42";
+            this.panel42.Size = new System.Drawing.Size(181, 46);
+            this.panel42.TabIndex = 0;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.BackColor = System.Drawing.Color.Transparent;
+            this.label11.Font = new System.Drawing.Font("Khmer Busra", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(29, 3);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(85, 39);
+            this.label11.TabIndex = 15;
+            this.label11.Text = "ស្វែងរក";
             // 
             // panel36
             // 
@@ -779,320 +1093,6 @@
             this.label19.TabIndex = 14;
             this.label19.Text = "ទំនិញ";
             // 
-            // panel42
-            // 
-            this.panel42.Controls.Add(this.label11);
-            this.panel42.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel42.Location = new System.Drawing.Point(0, 0);
-            this.panel42.Name = "panel42";
-            this.panel42.Size = new System.Drawing.Size(181, 46);
-            this.panel42.TabIndex = 0;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.Color.Transparent;
-            this.label11.Font = new System.Drawing.Font("Khmer Busra", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(29, 3);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(85, 39);
-            this.label11.TabIndex = 15;
-            this.label11.Text = "ស្វែងរក";
-            // 
-            // panel41
-            // 
-            this.panel41.Controls.Add(this.panel43);
-            this.panel41.Controls.Add(this.panel42);
-            this.panel41.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel41.Location = new System.Drawing.Point(0, 529);
-            this.panel41.Name = "panel41";
-            this.panel41.Size = new System.Drawing.Size(1256, 46);
-            this.panel41.TabIndex = 2;
-            // 
-            // tableLayoutPanel8
-            // 
-            this.tableLayoutPanel8.ColumnCount = 3;
-            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 65F));
-            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 15F));
-            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel8.Controls.Add(this.panel15, 1, 0);
-            this.tableLayoutPanel8.Controls.Add(this.panel14, 0, 0);
-            this.tableLayoutPanel8.Controls.Add(this.panel16, 2, 0);
-            this.tableLayoutPanel8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel8.Location = new System.Drawing.Point(20, 0);
-            this.tableLayoutPanel8.Name = "tableLayoutPanel8";
-            this.tableLayoutPanel8.RowCount = 1;
-            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel8.Size = new System.Drawing.Size(1035, 46);
-            this.tableLayoutPanel8.TabIndex = 6;
-            // 
-            // panel43
-            // 
-            this.panel43.Controls.Add(this.tableLayoutPanel8);
-            this.panel43.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel43.Location = new System.Drawing.Point(181, 0);
-            this.panel43.Name = "panel43";
-            this.panel43.Padding = new System.Windows.Forms.Padding(20, 0, 20, 0);
-            this.panel43.Size = new System.Drawing.Size(1075, 46);
-            this.panel43.TabIndex = 1;
-            // 
-            // panel14
-            // 
-            this.panel14.Controls.Add(this.textBox4);
-            this.panel14.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel14.Location = new System.Drawing.Point(3, 3);
-            this.panel14.Name = "panel14";
-            this.panel14.Padding = new System.Windows.Forms.Padding(0, 0, 30, 0);
-            this.panel14.Size = new System.Drawing.Size(666, 40);
-            this.panel14.TabIndex = 0;
-            // 
-            // textBox4
-            // 
-            this.textBox4.BackColor = System.Drawing.Color.White;
-            this.textBox4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox4.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(0, 0);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(636, 41);
-            this.textBox4.TabIndex = 12;
-            // 
-            // panel15
-            // 
-            this.panel15.Controls.Add(this.label4);
-            this.panel15.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel15.Location = new System.Drawing.Point(675, 3);
-            this.panel15.Name = "panel15";
-            this.panel15.Padding = new System.Windows.Forms.Padding(0, 0, 30, 0);
-            this.panel15.Size = new System.Drawing.Size(149, 40);
-            this.panel15.TabIndex = 1;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Dock = System.Windows.Forms.DockStyle.Right;
-            this.label4.Font = new System.Drawing.Font("Khmer Busra", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(22, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(97, 39);
-            this.label4.TabIndex = 16;
-            this.label4.Text = "សរុប​ : ";
-            // 
-            // panel16
-            // 
-            this.panel16.Controls.Add(this.textBox5);
-            this.panel16.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel16.Location = new System.Drawing.Point(830, 3);
-            this.panel16.Name = "panel16";
-            this.panel16.Size = new System.Drawing.Size(202, 40);
-            this.panel16.TabIndex = 2;
-            // 
-            // textBox5
-            // 
-            this.textBox5.BackColor = System.Drawing.Color.White;
-            this.textBox5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox5.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(0, 0);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(202, 41);
-            this.textBox5.TabIndex = 13;
-            // 
-            // panel17
-            // 
-            this.panel17.BackColor = System.Drawing.Color.White;
-            this.panel17.Controls.Add(this.tableLayoutPanel12);
-            this.panel17.Controls.Add(this.tableLayoutPanel10);
-            this.panel17.Controls.Add(this.tableLayoutPanel9);
-            this.panel17.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel17.Location = new System.Drawing.Point(30, 10);
-            this.panel17.Name = "panel17";
-            this.panel17.Size = new System.Drawing.Size(258, 159);
-            this.panel17.TabIndex = 0;
-            // 
-            // tableLayoutPanel12
-            // 
-            this.tableLayoutPanel12.ColumnCount = 2;
-            this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30F));
-            this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 70F));
-            this.tableLayoutPanel12.Controls.Add(this.flowLayoutPanel1, 1, 0);
-            this.tableLayoutPanel12.Controls.Add(this.panel19, 0, 0);
-            this.tableLayoutPanel12.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.tableLayoutPanel12.Location = new System.Drawing.Point(0, 27);
-            this.tableLayoutPanel12.Name = "tableLayoutPanel12";
-            this.tableLayoutPanel12.RowCount = 1;
-            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel12.Size = new System.Drawing.Size(258, 44);
-            this.tableLayoutPanel12.TabIndex = 8;
-            // 
-            // panel19
-            // 
-            this.panel19.Controls.Add(this.label7);
-            this.panel19.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel19.Location = new System.Drawing.Point(3, 3);
-            this.panel19.Name = "panel19";
-            this.panel19.Size = new System.Drawing.Size(71, 38);
-            this.panel19.TabIndex = 0;
-            // 
-            // label7
-            // 
-            this.label7.AllowDrop = true;
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label7.Font = new System.Drawing.Font("Khmer Busra", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.label7.Location = new System.Drawing.Point(0, 0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(70, 39);
-            this.label7.TabIndex = 15;
-            this.label7.Text = "តម្លៃ ";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
-            // 
-            // tableLayoutPanel10
-            // 
-            this.tableLayoutPanel10.ColumnCount = 2;
-            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30F));
-            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 70F));
-            this.tableLayoutPanel10.Controls.Add(this.flowLayoutPanel2, 1, 0);
-            this.tableLayoutPanel10.Controls.Add(this.panel18, 0, 0);
-            this.tableLayoutPanel10.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.tableLayoutPanel10.Location = new System.Drawing.Point(0, 71);
-            this.tableLayoutPanel10.Name = "tableLayoutPanel10";
-            this.tableLayoutPanel10.RowCount = 1;
-            this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel10.Size = new System.Drawing.Size(258, 44);
-            this.tableLayoutPanel10.TabIndex = 7;
-            // 
-            // panel18
-            // 
-            this.panel18.Controls.Add(this.label6);
-            this.panel18.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel18.Location = new System.Drawing.Point(3, 3);
-            this.panel18.Name = "panel18";
-            this.panel18.Size = new System.Drawing.Size(71, 38);
-            this.panel18.TabIndex = 0;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label6.Font = new System.Drawing.Font("Khmer Busra", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.label6.Location = new System.Drawing.Point(0, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(77, 39);
-            this.label6.TabIndex = 15;
-            this.label6.Text = "ចំនួន ";
-            // 
-            // tableLayoutPanel9
-            // 
-            this.tableLayoutPanel9.ColumnCount = 2;
-            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30F));
-            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 70F));
-            this.tableLayoutPanel9.Controls.Add(this.flowLayoutPanel3, 1, 0);
-            this.tableLayoutPanel9.Controls.Add(this.panel20, 0, 0);
-            this.tableLayoutPanel9.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.tableLayoutPanel9.Location = new System.Drawing.Point(0, 115);
-            this.tableLayoutPanel9.Name = "tableLayoutPanel9";
-            this.tableLayoutPanel9.RowCount = 1;
-            this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel9.Size = new System.Drawing.Size(258, 44);
-            this.tableLayoutPanel9.TabIndex = 6;
-            // 
-            // panel20
-            // 
-            this.panel20.Controls.Add(this.label5);
-            this.panel20.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel20.Location = new System.Drawing.Point(3, 3);
-            this.panel20.Name = "panel20";
-            this.panel20.Size = new System.Drawing.Size(71, 38);
-            this.panel20.TabIndex = 0;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label5.Font = new System.Drawing.Font("Khmer Busra", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.label5.Location = new System.Drawing.Point(0, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(60, 39);
-            this.label5.TabIndex = 15;
-            this.label5.Text = "សរុប";
-            // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.Controls.Add(this.label8);
-            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(80, 3);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(175, 38);
-            this.flowLayoutPanel1.TabIndex = 1;
-            // 
-            // flowLayoutPanel2
-            // 
-            this.flowLayoutPanel2.Controls.Add(this.label9);
-            this.flowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(80, 3);
-            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(175, 38);
-            this.flowLayoutPanel2.TabIndex = 2;
-            // 
-            // flowLayoutPanel3
-            // 
-            this.flowLayoutPanel3.Controls.Add(this.label10);
-            this.flowLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel3.Location = new System.Drawing.Point(80, 3);
-            this.flowLayoutPanel3.Name = "flowLayoutPanel3";
-            this.flowLayoutPanel3.Size = new System.Drawing.Size(175, 38);
-            this.flowLayoutPanel3.TabIndex = 2;
-            // 
-            // label8
-            // 
-            this.label8.AllowDrop = true;
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.label8.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label8.Font = new System.Drawing.Font("Khmer Busra", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.Brown;
-            this.label8.Location = new System.Drawing.Point(3, 0);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(90, 39);
-            this.label8.TabIndex = 16;
-            this.label8.Text = ": 5.45$";
-            // 
-            // label9
-            // 
-            this.label9.AllowDrop = true;
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label9.Font = new System.Drawing.Font("Khmer Busra", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.Brown;
-            this.label9.Location = new System.Drawing.Point(3, 0);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(53, 39);
-            this.label9.TabIndex = 17;
-            this.label9.Text = ": 2";
-            // 
-            // label10
-            // 
-            this.label10.AllowDrop = true;
-            this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.Transparent;
-            this.label10.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label10.Font = new System.Drawing.Font("Khmer Busra", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.Brown;
-            this.label10.Location = new System.Drawing.Point(3, 0);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(104, 39);
-            this.label10.TabIndex = 17;
-            this.label10.Text = ": 10.90$";
-            // 
             // Sale
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1125,6 +1125,22 @@
             this.panel13.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel12.ResumeLayout(false);
+            this.panel17.ResumeLayout(false);
+            this.tableLayoutPanel12.ResumeLayout(false);
+            this.flowLayoutPanel1.ResumeLayout(false);
+            this.flowLayoutPanel1.PerformLayout();
+            this.panel19.ResumeLayout(false);
+            this.panel19.PerformLayout();
+            this.tableLayoutPanel10.ResumeLayout(false);
+            this.flowLayoutPanel2.ResumeLayout(false);
+            this.flowLayoutPanel2.PerformLayout();
+            this.panel18.ResumeLayout(false);
+            this.panel18.PerformLayout();
+            this.tableLayoutPanel9.ResumeLayout(false);
+            this.flowLayoutPanel3.ResumeLayout(false);
+            this.flowLayoutPanel3.PerformLayout();
+            this.panel20.ResumeLayout(false);
+            this.panel20.PerformLayout();
             this.panel34.ResumeLayout(false);
             this.panel62.ResumeLayout(false);
             this.panel39.ResumeLayout(false);
@@ -1136,6 +1152,17 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvEnroll)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel44.ResumeLayout(false);
+            this.panel41.ResumeLayout(false);
+            this.panel43.ResumeLayout(false);
+            this.tableLayoutPanel8.ResumeLayout(false);
+            this.panel15.ResumeLayout(false);
+            this.panel15.PerformLayout();
+            this.panel14.ResumeLayout(false);
+            this.panel14.PerformLayout();
+            this.panel16.ResumeLayout(false);
+            this.panel16.PerformLayout();
+            this.panel42.ResumeLayout(false);
+            this.panel42.PerformLayout();
             this.panel36.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
@@ -1145,33 +1172,6 @@
             this.panel71.PerformLayout();
             this.panel72.ResumeLayout(false);
             this.panel72.PerformLayout();
-            this.panel42.ResumeLayout(false);
-            this.panel42.PerformLayout();
-            this.panel41.ResumeLayout(false);
-            this.tableLayoutPanel8.ResumeLayout(false);
-            this.panel43.ResumeLayout(false);
-            this.panel14.ResumeLayout(false);
-            this.panel14.PerformLayout();
-            this.panel15.ResumeLayout(false);
-            this.panel15.PerformLayout();
-            this.panel16.ResumeLayout(false);
-            this.panel16.PerformLayout();
-            this.panel17.ResumeLayout(false);
-            this.tableLayoutPanel12.ResumeLayout(false);
-            this.panel19.ResumeLayout(false);
-            this.panel19.PerformLayout();
-            this.tableLayoutPanel10.ResumeLayout(false);
-            this.panel18.ResumeLayout(false);
-            this.panel18.PerformLayout();
-            this.tableLayoutPanel9.ResumeLayout(false);
-            this.panel20.ResumeLayout(false);
-            this.panel20.PerformLayout();
-            this.flowLayoutPanel1.ResumeLayout(false);
-            this.flowLayoutPanel1.PerformLayout();
-            this.flowLayoutPanel2.ResumeLayout(false);
-            this.flowLayoutPanel2.PerformLayout();
-            this.flowLayoutPanel3.ResumeLayout(false);
-            this.flowLayoutPanel3.PerformLayout();
             this.ResumeLayout(false);
 
         }

@@ -17,7 +17,8 @@ namespace SalesManagementSystem
             InitializeComponent();
         }
 
-        private void label7_Click(object sender, EventArgs e)
+
+        private void btnNew_Click(object sender, EventArgs e)
         {
 
         }
