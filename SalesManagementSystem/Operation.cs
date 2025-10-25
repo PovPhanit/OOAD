@@ -12,7 +12,7 @@ namespace SalesManagementSystem
         public static SqlConnection con;
         public static void myConnection()
         {
-            string conStr = @"Data source=MSI168\SQLSERVER;Initial catalog=sale_management_system;Integrated Security=true";
+            string conStr = @"Data source=DESKTOP-L6LP4VH\MSSQLSERVER2;Initial catalog=sale_management_system;Integrated Security=true";
             con = new SqlConnection(conStr);
             con.Open();
         }

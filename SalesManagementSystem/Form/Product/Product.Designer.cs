@@ -50,6 +50,10 @@
             this.panel41 = new System.Windows.Forms.Panel();
             this.panel36 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.saleContainer = new System.Windows.Forms.Panel();
+            this.productContainer = new System.Windows.Forms.Panel();
+            this.panel63 = new System.Windows.Forms.Panel();
+            this.button6 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel7 = new System.Windows.Forms.TableLayoutPanel();
@@ -81,11 +85,6 @@
             this.txtCode = new System.Windows.Forms.TextBox();
             this.panel72 = new System.Windows.Forms.Panel();
             this.label19 = new System.Windows.Forms.Label();
-            this.panel21 = new System.Windows.Forms.Panel();
-            this.panel34 = new System.Windows.Forms.Panel();
-            this.panel62 = new System.Windows.Forms.Panel();
-            this.panel63 = new System.Windows.Forms.Panel();
-            this.button6 = new System.Windows.Forms.Button();
             this.panel39.SuspendLayout();
             this.panel40.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
@@ -99,6 +98,8 @@
             this.panel41.SuspendLayout();
             this.panel36.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
+            this.saleContainer.SuspendLayout();
+            this.panel63.SuspendLayout();
             this.panel2.SuspendLayout();
             this.tableLayoutPanel6.SuspendLayout();
             this.tableLayoutPanel7.SuspendLayout();
@@ -121,10 +122,6 @@
             this.panel70.SuspendLayout();
             this.panel71.SuspendLayout();
             this.panel72.SuspendLayout();
-            this.panel21.SuspendLayout();
-            this.panel34.SuspendLayout();
-            this.panel62.SuspendLayout();
-            this.panel63.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnSave
@@ -145,6 +142,7 @@
             this.btnSave.TabIndex = 15;
             this.btnSave.Text = "រក្សាទុក";
             this.btnSave.UseVisualStyleBackColor = false;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // btnEdit
             // 
@@ -164,6 +162,7 @@
             this.btnEdit.TabIndex = 15;
             this.btnEdit.Text = "កែប្រែ";
             this.btnEdit.UseVisualStyleBackColor = false;
+            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
             // panel39
             // 
@@ -193,6 +192,7 @@
             this.btnDelete.TabIndex = 15;
             this.btnDelete.Text = "លុប";
             this.btnDelete.UseVisualStyleBackColor = false;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // panel40
             // 
@@ -345,7 +345,7 @@
             this.dgvProduct.RowHeadersVisible = false;
             this.dgvProduct.RowHeadersWidth = 51;
             this.dgvProduct.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvProduct.Size = new System.Drawing.Size(1272, 272);
+            this.dgvProduct.Size = new System.Drawing.Size(1272, 267);
             this.dgvProduct.TabIndex = 5;
             this.dgvProduct.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvProduct_CellContentClick);
             // 
@@ -358,7 +358,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1322, 867);
+            this.panel1.Size = new System.Drawing.Size(1322, 862);
             this.panel1.TabIndex = 3;
             // 
             // panel44
@@ -368,7 +368,7 @@
             this.panel44.Location = new System.Drawing.Point(0, 575);
             this.panel44.Name = "panel44";
             this.panel44.Padding = new System.Windows.Forms.Padding(30, 10, 20, 10);
-            this.panel44.Size = new System.Drawing.Size(1322, 292);
+            this.panel44.Size = new System.Drawing.Size(1322, 287);
             this.panel44.TabIndex = 4;
             // 
             // panel41
@@ -395,8 +395,8 @@
             this.tableLayoutPanel1.ColumnCount = 2;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 40F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 60F));
+            this.tableLayoutPanel1.Controls.Add(this.saleContainer, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.panel2, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this.panel21, 1, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
@@ -404,6 +404,51 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(1322, 458);
             this.tableLayoutPanel1.TabIndex = 0;
+            // 
+            // saleContainer
+            // 
+            this.saleContainer.BackColor = System.Drawing.Color.White;
+            this.saleContainer.Controls.Add(this.productContainer);
+            this.saleContainer.Controls.Add(this.panel63);
+            this.saleContainer.Dock = System.Windows.Forms.DockStyle.Top;
+            this.saleContainer.Location = new System.Drawing.Point(531, 3);
+            this.saleContainer.Name = "saleContainer";
+            this.saleContainer.Size = new System.Drawing.Size(788, 439);
+            this.saleContainer.TabIndex = 24;
+            // 
+            // productContainer
+            // 
+            this.productContainer.Location = new System.Drawing.Point(112, 104);
+            this.productContainer.Name = "productContainer";
+            this.productContainer.Size = new System.Drawing.Size(622, 256);
+            this.productContainer.TabIndex = 1;
+            // 
+            // panel63
+            // 
+            this.panel63.BackColor = System.Drawing.Color.MidnightBlue;
+            this.panel63.Controls.Add(this.button6);
+            this.panel63.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel63.Location = new System.Drawing.Point(0, 0);
+            this.panel63.Name = "panel63";
+            this.panel63.Size = new System.Drawing.Size(788, 63);
+            this.panel63.TabIndex = 0;
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.MidnightBlue;
+            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button6.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.button6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button6.Font = new System.Drawing.Font("Khmer Busra", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button6.Location = new System.Drawing.Point(0, 0);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(788, 63);
+            this.button6.TabIndex = 16;
+            this.button6.Text = "ប្រភេទទំនិញសម្រាប់លក់";
+            this.button6.UseVisualStyleBackColor = false;
             // 
             // panel2
             // 
@@ -520,7 +565,7 @@
             this.panel9.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel9.Location = new System.Drawing.Point(3, 3);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(516, 59);
+            this.panel9.Size = new System.Drawing.Size(516, 58);
             this.panel9.TabIndex = 2;
             // 
             // panel10
@@ -530,7 +575,7 @@
             this.panel10.Location = new System.Drawing.Point(178, 0);
             this.panel10.Name = "panel10";
             this.panel10.Padding = new System.Windows.Forms.Padding(20, 10, 20, 10);
-            this.panel10.Size = new System.Drawing.Size(338, 59);
+            this.panel10.Size = new System.Drawing.Size(338, 58);
             this.panel10.TabIndex = 1;
             // 
             // txtQuantity
@@ -551,7 +596,7 @@
             this.panel11.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel11.Location = new System.Drawing.Point(0, 0);
             this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(178, 59);
+            this.panel11.Size = new System.Drawing.Size(178, 58);
             this.panel11.TabIndex = 0;
             // 
             // label3
@@ -586,7 +631,7 @@
             this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel6.Location = new System.Drawing.Point(3, 3);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(516, 59);
+            this.panel6.Size = new System.Drawing.Size(516, 58);
             this.panel6.TabIndex = 2;
             // 
             // panel7
@@ -596,7 +641,7 @@
             this.panel7.Location = new System.Drawing.Point(178, 0);
             this.panel7.Name = "panel7";
             this.panel7.Padding = new System.Windows.Forms.Padding(20, 10, 20, 10);
-            this.panel7.Size = new System.Drawing.Size(338, 59);
+            this.panel7.Size = new System.Drawing.Size(338, 58);
             this.panel7.TabIndex = 1;
             // 
             // txtPrice
@@ -617,7 +662,7 @@
             this.panel8.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel8.Location = new System.Drawing.Point(0, 0);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(178, 59);
+            this.panel8.Size = new System.Drawing.Size(178, 58);
             this.panel8.TabIndex = 0;
             // 
             // label2
@@ -652,7 +697,7 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(3, 3);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(516, 59);
+            this.panel3.Size = new System.Drawing.Size(516, 58);
             this.panel3.TabIndex = 2;
             // 
             // panel4
@@ -662,7 +707,7 @@
             this.panel4.Location = new System.Drawing.Point(178, 0);
             this.panel4.Name = "panel4";
             this.panel4.Padding = new System.Windows.Forms.Padding(20, 10, 20, 10);
-            this.panel4.Size = new System.Drawing.Size(338, 59);
+            this.panel4.Size = new System.Drawing.Size(338, 58);
             this.panel4.TabIndex = 1;
             // 
             // txtName
@@ -683,7 +728,7 @@
             this.panel5.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel5.Location = new System.Drawing.Point(0, 0);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(178, 59);
+            this.panel5.Size = new System.Drawing.Size(178, 58);
             this.panel5.TabIndex = 0;
             // 
             // label1
@@ -718,7 +763,7 @@
             this.panel70.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel70.Location = new System.Drawing.Point(3, 3);
             this.panel70.Name = "panel70";
-            this.panel70.Size = new System.Drawing.Size(516, 59);
+            this.panel70.Size = new System.Drawing.Size(516, 58);
             this.panel70.TabIndex = 2;
             // 
             // panel71
@@ -728,7 +773,7 @@
             this.panel71.Location = new System.Drawing.Point(178, 0);
             this.panel71.Name = "panel71";
             this.panel71.Padding = new System.Windows.Forms.Padding(20, 10, 20, 10);
-            this.panel71.Size = new System.Drawing.Size(338, 59);
+            this.panel71.Size = new System.Drawing.Size(338, 58);
             this.panel71.TabIndex = 1;
             // 
             // txtCode
@@ -750,7 +795,7 @@
             this.panel72.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel72.Location = new System.Drawing.Point(0, 0);
             this.panel72.Name = "panel72";
-            this.panel72.Size = new System.Drawing.Size(178, 59);
+            this.panel72.Size = new System.Drawing.Size(178, 58);
             this.panel72.TabIndex = 0;
             // 
             // label19
@@ -764,67 +809,11 @@
             this.label19.TabIndex = 14;
             this.label19.Text = "កូដ";
             // 
-            // panel21
-            // 
-            this.panel21.Controls.Add(this.panel34);
-            this.panel21.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel21.Location = new System.Drawing.Point(531, 3);
-            this.panel21.Name = "panel21";
-            this.panel21.Size = new System.Drawing.Size(788, 452);
-            this.panel21.TabIndex = 1;
-            // 
-            // panel34
-            // 
-            this.panel34.Controls.Add(this.panel62);
-            this.panel34.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel34.Location = new System.Drawing.Point(0, 0);
-            this.panel34.Name = "panel34";
-            this.panel34.Padding = new System.Windows.Forms.Padding(0, 10, 20, 0);
-            this.panel34.Size = new System.Drawing.Size(788, 455);
-            this.panel34.TabIndex = 1;
-            // 
-            // panel62
-            // 
-            this.panel62.BackColor = System.Drawing.Color.White;
-            this.panel62.Controls.Add(this.panel63);
-            this.panel62.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel62.Location = new System.Drawing.Point(0, 10);
-            this.panel62.Name = "panel62";
-            this.panel62.Size = new System.Drawing.Size(768, 439);
-            this.panel62.TabIndex = 23;
-            // 
-            // panel63
-            // 
-            this.panel63.BackColor = System.Drawing.Color.MidnightBlue;
-            this.panel63.Controls.Add(this.button6);
-            this.panel63.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel63.Location = new System.Drawing.Point(0, 0);
-            this.panel63.Name = "panel63";
-            this.panel63.Size = new System.Drawing.Size(768, 63);
-            this.panel63.TabIndex = 0;
-            // 
-            // button6
-            // 
-            this.button6.BackColor = System.Drawing.Color.MidnightBlue;
-            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button6.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.button6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button6.Font = new System.Drawing.Font("Khmer Busra", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button6.Location = new System.Drawing.Point(0, 0);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(768, 63);
-            this.button6.TabIndex = 16;
-            this.button6.Text = "ប្រភេទទំនិញសម្រាប់លក់";
-            this.button6.UseVisualStyleBackColor = false;
-            // 
             // Product
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1322, 867);
+            this.ClientSize = new System.Drawing.Size(1322, 862);
             this.Controls.Add(this.panel1);
             this.Name = "Product";
             this.Text = "Product";
@@ -844,6 +833,8 @@
             this.panel41.ResumeLayout(false);
             this.panel36.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
+            this.saleContainer.ResumeLayout(false);
+            this.panel63.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.tableLayoutPanel6.ResumeLayout(false);
             this.tableLayoutPanel7.ResumeLayout(false);
@@ -874,10 +865,6 @@
             this.panel71.PerformLayout();
             this.panel72.ResumeLayout(false);
             this.panel72.PerformLayout();
-            this.panel21.ResumeLayout(false);
-            this.panel34.ResumeLayout(false);
-            this.panel62.ResumeLayout(false);
-            this.panel63.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -908,8 +895,6 @@
         private System.Windows.Forms.Panel panel71;
         private System.Windows.Forms.Panel panel72;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Panel panel21;
-        private System.Windows.Forms.Panel panel34;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel5;
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.Panel panel10;
@@ -935,7 +920,8 @@
         private System.Windows.Forms.PictureBox imageProduct;
         private System.Windows.Forms.Panel panel12;
         private System.Windows.Forms.Button btnBrowser;
-        private System.Windows.Forms.Panel panel62;
+        private System.Windows.Forms.Panel saleContainer;
+        private System.Windows.Forms.Panel productContainer;
         private System.Windows.Forms.Panel panel63;
         private System.Windows.Forms.Button button6;
     }

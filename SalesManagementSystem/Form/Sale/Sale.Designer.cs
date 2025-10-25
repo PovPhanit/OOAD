@@ -35,23 +35,23 @@
             this.button6 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtCustomerName = new System.Windows.Forms.TextBox();
             this.panel5 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.panel6 = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtPhone = new System.Windows.Forms.TextBox();
             this.panel8 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
             this.panel9 = new System.Windows.Forms.Panel();
             this.panel10 = new System.Windows.Forms.Panel();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtQty = new System.Windows.Forms.TextBox();
             this.panel11 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.txtNameKH = new System.Windows.Forms.TextBox();
+            this.txtProduct = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel7 = new System.Windows.Forms.TableLayoutPanel();
             this.panel13 = new System.Windows.Forms.Panel();
@@ -74,7 +74,7 @@
             this.panel20 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
             this.panel34 = new System.Windows.Forms.Panel();
-            this.panel62 = new System.Windows.Forms.Panel();
+            this.saleContainer = new System.Windows.Forms.Panel();
             this.btnSave = new System.Windows.Forms.Button();
             this.btnEdit = new System.Windows.Forms.Button();
             this.panel39 = new System.Windows.Forms.Panel();
@@ -85,7 +85,7 @@
             this.panel37 = new System.Windows.Forms.Panel();
             this.btnNew = new System.Windows.Forms.Button();
             this.panel21 = new System.Windows.Forms.Panel();
-            this.dgvEnroll = new System.Windows.Forms.DataGridView();
+            this.dgvSale = new System.Windows.Forms.DataGridView();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel44 = new System.Windows.Forms.Panel();
             this.panel41 = new System.Windows.Forms.Panel();
@@ -94,7 +94,7 @@
             this.panel15 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.panel14 = new System.Windows.Forms.Panel();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtSearch = new System.Windows.Forms.TextBox();
             this.panel16 = new System.Windows.Forms.Panel();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.panel42 = new System.Windows.Forms.Panel();
@@ -136,14 +136,14 @@
             this.flowLayoutPanel3.SuspendLayout();
             this.panel20.SuspendLayout();
             this.panel34.SuspendLayout();
-            this.panel62.SuspendLayout();
+            this.saleContainer.SuspendLayout();
             this.panel39.SuspendLayout();
             this.panel40.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.panel38.SuspendLayout();
             this.panel37.SuspendLayout();
             this.panel21.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvEnroll)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvSale)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel44.SuspendLayout();
             this.panel41.SuspendLayout();
@@ -197,29 +197,29 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(3, 3);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(490, 59);
+            this.panel3.Size = new System.Drawing.Size(490, 58);
             this.panel3.TabIndex = 2;
             // 
             // panel4
             // 
-            this.panel4.Controls.Add(this.textBox1);
+            this.panel4.Controls.Add(this.txtCustomerName);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel4.Location = new System.Drawing.Point(178, 0);
             this.panel4.Name = "panel4";
             this.panel4.Padding = new System.Windows.Forms.Padding(20, 10, 20, 10);
-            this.panel4.Size = new System.Drawing.Size(312, 59);
+            this.panel4.Size = new System.Drawing.Size(312, 58);
             this.panel4.TabIndex = 1;
             // 
-            // textBox1
+            // txtCustomerName
             // 
-            this.textBox1.BackColor = System.Drawing.Color.White;
-            this.textBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox1.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(20, 10);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(272, 41);
-            this.textBox1.TabIndex = 11;
+            this.txtCustomerName.BackColor = System.Drawing.Color.White;
+            this.txtCustomerName.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txtCustomerName.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCustomerName.Location = new System.Drawing.Point(20, 10);
+            this.txtCustomerName.Margin = new System.Windows.Forms.Padding(4);
+            this.txtCustomerName.Name = "txtCustomerName";
+            this.txtCustomerName.Size = new System.Drawing.Size(272, 41);
+            this.txtCustomerName.TabIndex = 11;
             // 
             // panel5
             // 
@@ -228,7 +228,7 @@
             this.panel5.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel5.Location = new System.Drawing.Point(0, 0);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(178, 59);
+            this.panel5.Size = new System.Drawing.Size(178, 58);
             this.panel5.TabIndex = 0;
             // 
             // label1
@@ -263,29 +263,29 @@
             this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel6.Location = new System.Drawing.Point(3, 3);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(490, 59);
+            this.panel6.Size = new System.Drawing.Size(490, 58);
             this.panel6.TabIndex = 2;
             // 
             // panel7
             // 
-            this.panel7.Controls.Add(this.textBox2);
+            this.panel7.Controls.Add(this.txtPhone);
             this.panel7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel7.Location = new System.Drawing.Point(178, 0);
             this.panel7.Name = "panel7";
             this.panel7.Padding = new System.Windows.Forms.Padding(20, 10, 20, 10);
-            this.panel7.Size = new System.Drawing.Size(312, 59);
+            this.panel7.Size = new System.Drawing.Size(312, 58);
             this.panel7.TabIndex = 1;
             // 
-            // textBox2
+            // txtPhone
             // 
-            this.textBox2.BackColor = System.Drawing.Color.White;
-            this.textBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox2.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(20, 10);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(272, 41);
-            this.textBox2.TabIndex = 11;
+            this.txtPhone.BackColor = System.Drawing.Color.White;
+            this.txtPhone.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txtPhone.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPhone.Location = new System.Drawing.Point(20, 10);
+            this.txtPhone.Margin = new System.Windows.Forms.Padding(4);
+            this.txtPhone.Name = "txtPhone";
+            this.txtPhone.Size = new System.Drawing.Size(272, 41);
+            this.txtPhone.TabIndex = 11;
             // 
             // panel8
             // 
@@ -294,7 +294,7 @@
             this.panel8.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel8.Location = new System.Drawing.Point(0, 0);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(178, 59);
+            this.panel8.Size = new System.Drawing.Size(178, 58);
             this.panel8.TabIndex = 0;
             // 
             // label2
@@ -329,29 +329,29 @@
             this.panel9.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel9.Location = new System.Drawing.Point(3, 3);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(490, 59);
+            this.panel9.Size = new System.Drawing.Size(490, 58);
             this.panel9.TabIndex = 2;
             // 
             // panel10
             // 
-            this.panel10.Controls.Add(this.textBox3);
+            this.panel10.Controls.Add(this.txtQty);
             this.panel10.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel10.Location = new System.Drawing.Point(178, 0);
             this.panel10.Name = "panel10";
             this.panel10.Padding = new System.Windows.Forms.Padding(20, 10, 20, 10);
-            this.panel10.Size = new System.Drawing.Size(312, 59);
+            this.panel10.Size = new System.Drawing.Size(312, 58);
             this.panel10.TabIndex = 1;
             // 
-            // textBox3
+            // txtQty
             // 
-            this.textBox3.BackColor = System.Drawing.Color.White;
-            this.textBox3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox3.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(20, 10);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(272, 41);
-            this.textBox3.TabIndex = 11;
+            this.txtQty.BackColor = System.Drawing.Color.White;
+            this.txtQty.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txtQty.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtQty.Location = new System.Drawing.Point(20, 10);
+            this.txtQty.Margin = new System.Windows.Forms.Padding(4);
+            this.txtQty.Name = "txtQty";
+            this.txtQty.Size = new System.Drawing.Size(272, 41);
+            this.txtQty.TabIndex = 11;
             // 
             // panel11
             // 
@@ -360,7 +360,7 @@
             this.panel11.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel11.Location = new System.Drawing.Point(0, 0);
             this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(178, 59);
+            this.panel11.Size = new System.Drawing.Size(178, 58);
             this.panel11.TabIndex = 0;
             // 
             // label3
@@ -387,16 +387,16 @@
             this.tableLayoutPanel3.Size = new System.Drawing.Size(496, 65);
             this.tableLayoutPanel3.TabIndex = 7;
             // 
-            // txtNameKH
+            // txtProduct
             // 
-            this.txtNameKH.BackColor = System.Drawing.Color.White;
-            this.txtNameKH.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtNameKH.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNameKH.Location = new System.Drawing.Point(20, 10);
-            this.txtNameKH.Margin = new System.Windows.Forms.Padding(4);
-            this.txtNameKH.Name = "txtNameKH";
-            this.txtNameKH.Size = new System.Drawing.Size(272, 41);
-            this.txtNameKH.TabIndex = 11;
+            this.txtProduct.BackColor = System.Drawing.Color.White;
+            this.txtProduct.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txtProduct.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtProduct.Location = new System.Drawing.Point(20, 10);
+            this.txtProduct.Margin = new System.Windows.Forms.Padding(4);
+            this.txtProduct.Name = "txtProduct";
+            this.txtProduct.Size = new System.Drawing.Size(272, 41);
+            this.txtProduct.TabIndex = 11;
             // 
             // tableLayoutPanel6
             // 
@@ -655,7 +655,7 @@
             // 
             // panel34
             // 
-            this.panel34.Controls.Add(this.panel62);
+            this.panel34.Controls.Add(this.saleContainer);
             this.panel34.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel34.Location = new System.Drawing.Point(0, 0);
             this.panel34.Name = "panel34";
@@ -663,15 +663,15 @@
             this.panel34.Size = new System.Drawing.Size(748, 455);
             this.panel34.TabIndex = 1;
             // 
-            // panel62
+            // saleContainer
             // 
-            this.panel62.BackColor = System.Drawing.Color.White;
-            this.panel62.Controls.Add(this.panel63);
-            this.panel62.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel62.Location = new System.Drawing.Point(0, 10);
-            this.panel62.Name = "panel62";
-            this.panel62.Size = new System.Drawing.Size(728, 439);
-            this.panel62.TabIndex = 23;
+            this.saleContainer.BackColor = System.Drawing.Color.White;
+            this.saleContainer.Controls.Add(this.panel63);
+            this.saleContainer.Dock = System.Windows.Forms.DockStyle.Top;
+            this.saleContainer.Location = new System.Drawing.Point(0, 10);
+            this.saleContainer.Name = "saleContainer";
+            this.saleContainer.Size = new System.Drawing.Size(728, 439);
+            this.saleContainer.TabIndex = 23;
             // 
             // btnSave
             // 
@@ -691,6 +691,7 @@
             this.btnSave.TabIndex = 15;
             this.btnSave.Text = "រក្សាទុក";
             this.btnSave.UseVisualStyleBackColor = false;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // btnEdit
             // 
@@ -710,6 +711,7 @@
             this.btnEdit.TabIndex = 15;
             this.btnEdit.Text = "កែប្រែ";
             this.btnEdit.UseVisualStyleBackColor = false;
+            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
             // panel39
             // 
@@ -739,6 +741,7 @@
             this.btnDelete.TabIndex = 15;
             this.btnDelete.Text = "លុប";
             this.btnDelete.UseVisualStyleBackColor = false;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // panel40
             // 
@@ -818,10 +821,10 @@
             this.panel21.Size = new System.Drawing.Size(748, 452);
             this.panel21.TabIndex = 1;
             // 
-            // dgvEnroll
+            // dgvSale
             // 
-            this.dgvEnroll.AllowUserToAddRows = false;
-            this.dgvEnroll.AllowUserToDeleteRows = false;
+            this.dgvSale.AllowUserToAddRows = false;
+            this.dgvSale.AllowUserToDeleteRows = false;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.MidnightBlue;
             dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -829,9 +832,9 @@
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.MidnightBlue;
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvEnroll.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
-            this.dgvEnroll.ColumnHeadersHeight = 30;
-            this.dgvEnroll.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
+            this.dgvSale.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            this.dgvSale.ColumnHeadersHeight = 30;
+            this.dgvSale.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.White;
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -839,12 +842,12 @@
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.MidnightBlue;
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvEnroll.DefaultCellStyle = dataGridViewCellStyle2;
-            this.dgvEnroll.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgvEnroll.EnableHeadersVisualStyles = false;
-            this.dgvEnroll.Location = new System.Drawing.Point(30, 10);
-            this.dgvEnroll.Name = "dgvEnroll";
-            this.dgvEnroll.ReadOnly = true;
+            this.dgvSale.DefaultCellStyle = dataGridViewCellStyle2;
+            this.dgvSale.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgvSale.EnableHeadersVisualStyles = false;
+            this.dgvSale.Location = new System.Drawing.Point(30, 10);
+            this.dgvSale.Name = "dgvSale";
+            this.dgvSale.ReadOnly = true;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -852,12 +855,13 @@
             dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.MidnightBlue;
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvEnroll.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
-            this.dgvEnroll.RowHeadersVisible = false;
-            this.dgvEnroll.RowHeadersWidth = 51;
-            this.dgvEnroll.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvEnroll.Size = new System.Drawing.Size(1206, 269);
-            this.dgvEnroll.TabIndex = 5;
+            this.dgvSale.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            this.dgvSale.RowHeadersVisible = false;
+            this.dgvSale.RowHeadersWidth = 51;
+            this.dgvSale.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgvSale.Size = new System.Drawing.Size(1206, 262);
+            this.dgvSale.TabIndex = 5;
+            this.dgvSale.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvEnroll_CellContentClick);
             // 
             // panel1
             // 
@@ -868,17 +872,17 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1256, 864);
+            this.panel1.Size = new System.Drawing.Size(1256, 857);
             this.panel1.TabIndex = 4;
             // 
             // panel44
             // 
-            this.panel44.Controls.Add(this.dgvEnroll);
+            this.panel44.Controls.Add(this.dgvSale);
             this.panel44.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel44.Location = new System.Drawing.Point(0, 575);
             this.panel44.Name = "panel44";
             this.panel44.Padding = new System.Windows.Forms.Padding(30, 10, 20, 10);
-            this.panel44.Size = new System.Drawing.Size(1256, 289);
+            this.panel44.Size = new System.Drawing.Size(1256, 282);
             this.panel44.TabIndex = 4;
             // 
             // panel41
@@ -942,7 +946,7 @@
             // 
             // panel14
             // 
-            this.panel14.Controls.Add(this.textBox4);
+            this.panel14.Controls.Add(this.txtSearch);
             this.panel14.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel14.Location = new System.Drawing.Point(3, 3);
             this.panel14.Name = "panel14";
@@ -950,16 +954,16 @@
             this.panel14.Size = new System.Drawing.Size(666, 40);
             this.panel14.TabIndex = 0;
             // 
-            // textBox4
+            // txtSearch
             // 
-            this.textBox4.BackColor = System.Drawing.Color.White;
-            this.textBox4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox4.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(0, 0);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(636, 41);
-            this.textBox4.TabIndex = 12;
+            this.txtSearch.BackColor = System.Drawing.Color.White;
+            this.txtSearch.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txtSearch.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSearch.Location = new System.Drawing.Point(0, 0);
+            this.txtSearch.Margin = new System.Windows.Forms.Padding(4);
+            this.txtSearch.Name = "txtSearch";
+            this.txtSearch.Size = new System.Drawing.Size(636, 41);
+            this.txtSearch.TabIndex = 12;
             // 
             // panel16
             // 
@@ -1059,17 +1063,17 @@
             this.panel70.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel70.Location = new System.Drawing.Point(3, 3);
             this.panel70.Name = "panel70";
-            this.panel70.Size = new System.Drawing.Size(490, 59);
+            this.panel70.Size = new System.Drawing.Size(490, 58);
             this.panel70.TabIndex = 2;
             // 
             // panel71
             // 
-            this.panel71.Controls.Add(this.txtNameKH);
+            this.panel71.Controls.Add(this.txtProduct);
             this.panel71.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel71.Location = new System.Drawing.Point(178, 0);
             this.panel71.Name = "panel71";
             this.panel71.Padding = new System.Windows.Forms.Padding(20, 10, 20, 10);
-            this.panel71.Size = new System.Drawing.Size(312, 59);
+            this.panel71.Size = new System.Drawing.Size(312, 58);
             this.panel71.TabIndex = 1;
             // 
             // panel72
@@ -1079,7 +1083,7 @@
             this.panel72.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel72.Location = new System.Drawing.Point(0, 0);
             this.panel72.Name = "panel72";
-            this.panel72.Size = new System.Drawing.Size(178, 59);
+            this.panel72.Size = new System.Drawing.Size(178, 58);
             this.panel72.TabIndex = 0;
             // 
             // label19
@@ -1097,10 +1101,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1256, 864);
+            this.ClientSize = new System.Drawing.Size(1256, 857);
             this.Controls.Add(this.panel1);
             this.Name = "Sale";
             this.Text = "Sale";
+            this.Load += new System.EventHandler(this.Sale_Load);
             this.panel63.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
@@ -1142,14 +1147,14 @@
             this.panel20.ResumeLayout(false);
             this.panel20.PerformLayout();
             this.panel34.ResumeLayout(false);
-            this.panel62.ResumeLayout(false);
+            this.saleContainer.ResumeLayout(false);
             this.panel39.ResumeLayout(false);
             this.panel40.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);
             this.panel38.ResumeLayout(false);
             this.panel37.ResumeLayout(false);
             this.panel21.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dgvEnroll)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvSale)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel44.ResumeLayout(false);
             this.panel41.ResumeLayout(false);
@@ -1182,30 +1187,30 @@
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtCustomerName;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtPhone;
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel5;
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.Panel panel10;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtQty;
         private System.Windows.Forms.Panel panel11;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
-        private System.Windows.Forms.TextBox txtNameKH;
+        private System.Windows.Forms.TextBox txtProduct;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel6;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel7;
         private System.Windows.Forms.Panel panel13;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel12;
         private System.Windows.Forms.Panel panel34;
-        private System.Windows.Forms.Panel panel62;
+        private System.Windows.Forms.Panel saleContainer;
         private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.Button btnEdit;
         private System.Windows.Forms.Panel panel39;
@@ -1216,7 +1221,7 @@
         private System.Windows.Forms.Panel panel37;
         private System.Windows.Forms.Button btnNew;
         private System.Windows.Forms.Panel panel21;
-        private System.Windows.Forms.DataGridView dgvEnroll;
+        private System.Windows.Forms.DataGridView dgvSale;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel44;
         private System.Windows.Forms.Panel panel36;
@@ -1235,7 +1240,7 @@
         private System.Windows.Forms.Panel panel15;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Panel panel14;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtSearch;
         private System.Windows.Forms.Panel panel16;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.Panel panel17;
